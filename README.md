@@ -65,7 +65,7 @@ Seguem a descrição das funcionalidades da api.
 
     URL: http://localhost:3330/status
 
-### Response Success
+### ✔ Response Success
 
     HTTP/1.1 200 OK
     Content-Type: application/json; 
@@ -83,7 +83,7 @@ Seguem a descrição das funcionalidades da api.
     URL: http://localhost:3330/usuario
     body.json( {Usuario_DTO} )
 
-### Response Success
+### ✔ Response Success
 
     Status: 201 Created
     Content-Type: application/json
@@ -101,7 +101,7 @@ Seguem a descrição das funcionalidades da api.
     URL: http://localhost:3330/usuario
     body.json( {Usuario_DTO, Endereco_DTO} )
 
-### Response Success
+### ✔ Response Success
 
     Status: 201 Created
     Content-Type: application/json
@@ -118,7 +118,7 @@ Seguem a descrição das funcionalidades da api.
     URL: http://localhost:3330/login
     body.json( { "email": "exemplo@email.com" } )
 
-### Response Success
+### ✔ Response Success
 
     Status: 200 OK
     Content-Type: application/json
@@ -136,7 +136,7 @@ Seguem a descrição das funcionalidades da api.
     query (?id=usuario_DTO.email)
     Authorization:Bearer + "token"
 
-### Response Success
+### ✔ Response Success
 
     Status: 200 OK
     Content-Type: application/json
@@ -153,7 +153,7 @@ Seguem a descrição das funcionalidades da api.
     URL: http://localhost:3330/endereco
     body.json( {endereco_DTO} )
 
-### Response Success
+### ✔ Response Success
 
     Status: 200 OK
     Content-Type: application/json
@@ -172,7 +172,7 @@ Seguem a descrição das funcionalidades da api.
     body.json( {endereco_DTO} )
     Authorization:Bearer + "token"
 
-### Response Success
+### ✔ Response Success
 
     Status: 200 OK
     Content-Type: application/json
@@ -190,7 +190,7 @@ Seguem a descrição das funcionalidades da api.
     body.json( {endereco_DTO} )
     Authorization:Bearer + "token"
 
-### Response Success
+### ✔ Response Success
 
     Status: 200 OK
     Content-Type: application/json
@@ -209,7 +209,7 @@ Seguem a descrição das funcionalidades da api.
     query (?id=usuario_DTO.id)
     Authorization:Bearer + "token"
 
-### Response Success
+### ✔ Response Success
 
     Status: 200 OK
     Content-Type: application/json
@@ -228,7 +228,7 @@ Seguem a descrição das funcionalidades da api.
     query (?id=endereco_DTO.id)
     Authorization:Bearer + "token"
 
-### Response Success
+### ✔ Response Success
 
     Status: 200 OK
     Content-Type: application/json
@@ -246,7 +246,7 @@ Seguem a descrição das funcionalidades da api.
     query (?id=endereco_DTO.id)
     Authorization:Bearer + "token"
 
-### Response Success
+### ✔ Response Success
 
     Status: 200 OK
     Content-Type: application/json
@@ -264,7 +264,7 @@ Seguem a descrição das funcionalidades da api.
     query (?id=usuario_DTO.id)
     Authorization:Bearer + "token"
 
-### Response Success
+### ✔ Response Success
 
     Status: 200 OK
     Content-Type: application/json
@@ -282,7 +282,7 @@ Seguem a descrição das funcionalidades da api.
     query (?id= usuario_DTO)
     Authorization:Bearer + "token"
 
-### Response Success
+### ✔ Response Success
 
     Status: 200 OK
     Content-Type: application/json
@@ -300,7 +300,7 @@ Seguem a descrição das funcionalidades da api.
     query (?id= endereco_DTO)
     Authorization:Bearer + "token"
 
-### Response Success
+### ✔ Response Success
 
     Status: 200 OK
     Content-Type: application/json
