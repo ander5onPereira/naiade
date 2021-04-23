@@ -57,7 +57,7 @@
 
 Seguem a descrição das funcionalidades da api. 
 
-## Status da api
+## ⚙ Status da api
 
 ### Request
 
@@ -74,7 +74,7 @@ Seguem a descrição das funcionalidades da api.
     return: true
 
 
-## Cadastro de Usuario
+## ➕ Cadastro de Usuario
 
 ### Request
 
@@ -92,7 +92,7 @@ Seguem a descrição das funcionalidades da api.
     return: {Usuario_DTO}
 
 
-## Cadastro de Usuario e Endereço
+## ➕ Cadastro de Usuario e Endereço
 
 ### Request 
 
@@ -144,7 +144,7 @@ Seguem a descrição das funcionalidades da api.
 
     return: Realize login
 
-## Cadastro Endereço
+## ➕ Cadastro Endereço
 
 ### Request
 
@@ -162,7 +162,7 @@ Seguem a descrição das funcionalidades da api.
 
     return: {Usuario_DTO}
 
-## Listar Usuarios
+## 📜 Listar Usuarios
 
 ### Request
 
@@ -180,7 +180,7 @@ Seguem a descrição das funcionalidades da api.
 
     return: [ { Usuario_DTO } ]
 
-## Listar Endereços
+## 📜 Listar Endereços
 
 ### Request
 
@@ -198,7 +198,7 @@ Seguem a descrição das funcionalidades da api.
 
     return: [ { Endereco_DTO } ]
 
-## Atualizar Usuario
+## 📝 Atualizar Usuario
 
 ### Request
 
@@ -217,7 +217,7 @@ Seguem a descrição das funcionalidades da api.
 
     return: {Message:"sucsess"}
 
-## Atualizar Endereço
+## 📝 Atualizar Endereço
 
 ### Request
 
@@ -236,7 +236,7 @@ Seguem a descrição das funcionalidades da api.
 
     return: {Message:"sucsess"}
 
-## Apagar Endereço
+## 🗑 Apagar Endereço
 
 ### Request
 
@@ -254,7 +254,7 @@ Seguem a descrição das funcionalidades da api.
 
     return: {Message:"sucsess"}
 
-## Apagar Usuario
+## 🗑 Apagar Usuario
 
 ### Request
 
@@ -272,7 +272,7 @@ Seguem a descrição das funcionalidades da api.
 
     return: {Message:"sucsess"}
 
-## Buscar Usuario
+## 🔍 Buscar Usuario
 
 ### Request
 
@@ -290,7 +290,7 @@ Seguem a descrição das funcionalidades da api.
 
     return: [{usuario_DTO}]
 
-## Buscar Endereço
+## 🔍 Buscar Endereço
 
 ### Request
 
