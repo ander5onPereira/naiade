@@ -63,15 +63,15 @@ Seguem a descrição das funcionalidades da api.
 
 > `GET /status`
 
-  URL: http://localhost:3330/status
+    URL: http://localhost:3330/status
 
 ### Response Success
 
-  HTTP/1.1 200 OK
-  Content-Type: application/json; 
-  Location: /status
+    HTTP/1.1 200 OK
+    Content-Type: application/json; 
+    Location: /status
 
-  return: true
+    return: true
 
 
 ## Cadastro de Usuario
