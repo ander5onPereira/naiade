@@ -1,0 +1,1 @@
+{"version":3,"file":"1618977004769-CreateUsuario.d.ts","sourceRoot":"","sources":["../../../src/database/migrations/1618977004769-CreateUsuario.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,WAAW,EAAS,MAAM,SAAS,CAAC;AAEjE,qBAAa,0BAA2B,YAAW,kBAAkB;IAEpD,EAAE,CAAC,WAAW,EAAE,WAAW,GAAG,OAAO,CAAC,IAAI,CAAC;IAgE3C,IAAI,CAAC,WAAW,EAAE,WAAW,GAAG,OAAO,CAAC,IAAI,CAAC;CAK7D"}

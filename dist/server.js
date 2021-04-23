@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const app_1 = require("./app");
+app_1.app.listen(process.env.PORT_SERVICE, () => {
+    console.clear();
+    console.log(`🔥 Server started ${process.env.PORT_SERVICE}`);
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2VydmVyLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vc3JjL3NlcnZlci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLCtCQUE0QjtBQUU1QixTQUFHLENBQUMsTUFBTSxDQUFDLE9BQU8sQ0FBQyxHQUFHLENBQUMsWUFBWSxFQUFFLEdBQUcsRUFBRTtJQUN4QyxPQUFPLENBQUMsS0FBSyxFQUFFLENBQUM7SUFDaEIsT0FBTyxDQUFDLEdBQUcsQ0FBQyxxQkFBcUIsT0FBTyxDQUFDLEdBQUcsQ0FBQyxZQUFZLEVBQUUsQ0FBQyxDQUFDO0FBQy9ELENBQUMsQ0FBQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgYXBwIH0gZnJvbSBcIi4vYXBwXCI7XHJcblxyXG5hcHAubGlzdGVuKHByb2Nlc3MuZW52LlBPUlRfU0VSVklDRSwgKCkgPT4ge1xyXG4gIGNvbnNvbGUuY2xlYXIoKTtcclxuICBjb25zb2xlLmxvZyhg8J+UpSBTZXJ2ZXIgc3RhcnRlZCAke3Byb2Nlc3MuZW52LlBPUlRfU0VSVklDRX1gKTtcclxufSk7XHJcbiJdfQ==
